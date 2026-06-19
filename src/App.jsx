@@ -130,25 +130,14 @@ export default function App() {
       {/* Footer Area with Credit */}
       <footer className="relative z-20 flex items-center justify-between w-full px-6 sm:px-10 lg:px-16 pb-6 text-[10px] sm:text-xs text-white/40 tracking-wider">
         <span className="uppercase">© 2026 VANGUARD Collective.</span>
-        <div className="flex items-center gap-3">
-          <a
-            href="https://github.com/spiderman"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="uppercase hover:text-white transition-colors duration-300 flex items-center gap-1 font-semibold font-inter"
-          >
-            <span>Made by spiderman</span>
-          </a>
-          <span className="text-white/20">|</span>
-          <a
-            href="https://github.com/hexmed"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="uppercase hover:text-white transition-colors duration-300 flex items-center gap-1 font-semibold font-inter"
-          >
-            <span>Made by hexmed</span>
-          </a>
-        </div>
+        <a
+          href="https://github.com/hexmed"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="uppercase hover:text-white transition-colors duration-300 flex items-center gap-1 font-semibold font-inter"
+        >
+          <span>Made by hexmed</span>
+        </a>
       </footer>
 
       {/* Mobile Menu Overlay */}
