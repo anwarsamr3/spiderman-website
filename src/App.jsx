@@ -18,7 +18,7 @@ export default function App() {
       {/* Background Video */}
       <video
         className="absolute inset-0 w-full h-full object-cover z-0 pointer-events-none"
-        src="https://hemuszgrjcadvtnljwza.supabase.co/storage/v1/object/public/Amination/spider-man-2.3840x2160.mp4"
+        src="https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260606_154941_df1a96e1-a06f-450c-bd02-d863414cc1a0.mp4"
         autoPlay
         loop
         muted
